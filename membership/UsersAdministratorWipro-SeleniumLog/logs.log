@@ -1,0 +1,4 @@
+[INFO ] 2025-03-03 22:57:11.333 [main] Demolog4J - This isfor getting information
+[WARN ] 2025-03-03 22:57:11.359 [main] Demolog4J - This is a warn message
+[ERROR] 2025-03-03 22:57:11.359 [main] Demolog4J - This is error message
+[FATAL] 2025-03-03 22:57:11.359 [main] Demolog4J - This is a fatal message
