@@ -15,7 +15,7 @@ import utility.Base;
 public class AccountCreationPage {
 	
 /*
-	@FindBy(how=How.XPATH,using="//a[text()='Create Account']") WebElement createNewAccount;
+	@FindBy(how=How.XPATH,using="//a[text()='Create a new account']") WebElement createNewAccount;
 	@FindBy(how=How.XPATH,using="//div[@id='wrapper']/table[2]/tbody/tr[3]/td[3]/input[@type='text']") WebElement fullName;
 	@FindBy(how=How.XPATH,using="//div[@id='wrapper']/table[2]/tbody/tr[7]/td[3]/input[@type='text']") WebElement mailId;
 	@FindBy(how=How.XPATH,using="//td[@valign='bottom']/input[@type='text']")WebElement checkAvailability_Mail;
@@ -38,12 +38,12 @@ public class AccountCreationPage {
 	
 	public void details() {
 		
-		fullName.sendKeys("Akshaya Kumar Dhal");
-		mailId.sendKeys("akshayakumar941@gmail.com");
+		fullName.sendKeys("sathya sai");
+		mailId.sendKeys("sai789@gmail.com");
 		checkAvailability_Mail.click();
-		newPasword.sendKeys("1234Aksh");
-		retypePasword.sendKeys("1234Aksh");
-		noAlternateEmail.sendKeys("aksh@gmail.com");
+		newPasword.sendKeys("sai890");
+		retypePasword.sendKeys("sai890");
+		noAlternateEmail.sendKeys("saih@gmail.com");
 		mobileNo.sendKeys("7681859228");
 		chooseDate.click();
 		chooseMonth.click();
